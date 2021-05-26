@@ -1,0 +1,281 @@
+@media only screen and (min-width: 768px) and (max-width:900px) {
+    .header {
+        min-height: 700px;
+    }
+    .header-text h2 {
+        font-size: 50px;
+    } 
+    .header-text h1 {
+        font-size: 75px;
+    }
+    .about-us-text p {
+        font-size: 15px;
+    }
+    .about-text .bold {
+    font-size: 20px;
+    }
+    .time-box::before {
+        height: 211px;
+        left: -7%;
+    }
+    .service-box h4 {
+        font-size: 19px;
+    }
+    .last::after {
+        height: 211px;
+        width: 1px;
+    }
+    .card-body p {
+        font-size: 12px;
+    }
+    .text-left {
+        font-size: 13px;
+    }
+    .text-service p {
+        font-size: 16px;
+    }
+    .quote {
+        margin-top: 100px;
+    }
+    .flex {
+        padding: 0px 30px;
+    }
+    .logo-section img {
+        max-width: 100%;
+    }
+    .image-box img{
+        max-width: 115%;
+    }
+    .gallery-text-box i {
+        font-size: 63px;
+        padding-top: 40px;
+    }
+    .gallery-text-box .bold {
+        font-size: 20px;
+    }
+    .gallery-text-box .light {
+        padding-bottom: 20px;
+    }
+    .owl-carousel .owl-item img {
+        max-width: 100%;
+    }
+    .item {
+        margin: 50px 0;
+    }
+    .map{
+        margin-top: 80px;
+    }
+    .image-quote {
+        min-height: 0px;
+    }
+    .item p {
+        font-size: 13px;
+    }
+    .item h2::before {
+        top: 67%;
+        left: 27%;
+        width: 4%;
+        height: 3px;
+    }
+    .quote i {
+        font-size: 70px;
+    }
+    .team-social li {
+        font-size: 10px;
+        background: transparent;
+    }
+    .client-img-text h4 {
+        width: 100%;
+        font-size: 27px;
+    }
+    .client-img-text p::before {
+        top: 39%;
+        left: 46%;
+    }
+    .date-box {
+        top: 19%;
+        left: -12%;
+    }
+    .date-box span {
+        font-size: 30px;
+    }
+    .date-box h4 {
+        font-size: 16px;
+    }
+    .footer-img-box {
+        display: block;
+    }
+    .footer-img-box-text h4 {
+        font-size: 10px;
+        width: 169px;
+        padding-top: 10px;
+    }
+    .footer-img-box-text h3 {
+        text-align: center;
+    }
+    .footer-box-middle h4 {
+        text-align: center;
+    }
+    .icon-list {
+        display: block; 
+    }
+    .icon-list ul{
+        display: inline-flex;
+    }
+    .form-footer form input[type="button"] {
+        margin-left: 0px;
+        margin: 10px 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .team-text p {
+        font-size: 17px;
+    }
+    .image-gallery{
+        margin-top: 80px;
+    }
+    .image-gallery p{
+        font-size: 16px;
+    }
+    .gallery-text-box i {
+        font-size: 41px;
+        padding-top: 85px;
+    }
+    .owl-carousel .owl-item img {
+        max-width: 100%;
+    }
+    .gallery-text-box .light {
+        padding-bottom: 95px;
+        width: 186px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .header-text h2 {
+        font-size: 45px;
+    }
+    .header-text h1 {
+        font-size: 65px;
+    }
+    .header {
+        min-height: 650px;
+    }
+    .about-us-text h2::after {
+        top: 29%;
+    }
+    .about-us-text p {
+        font-size: 15px;
+    }
+    .about-box {
+        max-width: 84%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .time-box::before {
+        visibility: hidden;
+    }
+    .last::after {
+        visibility: hidden;
+    }
+    .device{
+        margin-top: 80px;
+    }
+    .dev-phone {
+        left: 49%;
+    }
+    .service-section {
+        margin-top: 80px;
+    }
+    .text-service p {
+        font-size: 16px;
+    }
+    .tabs-right-service{
+        margin-top: 50px;
+    }
+    .team-img {
+        position: relative;
+        max-width: 87%;
+        margin: 0 auto;
+    }
+    .logo-section img {
+        max-width: 100%;
+    }
+    .gallery-box {
+        position: relative;
+        margin: 10px 0;
+    }
+    .client-img-text h4 {
+        max-width: 20%;
+    }
+    .client-img-text span {
+        max-width: 20%;
+    }
+    .client-img-text p::before {
+        top: 55%;
+        left: 34%;
+    }
+    .date-box {
+        top: 36%;
+        left: 0%;
+    }
+    .blog-text-story {
+        padding: 12px 35px;
+    }
+    .blog-icon {
+        margin: 15px 33px;    
+    }
+    .map{
+        margin-top: 80px;
+    }
+    .footer-box-middle{
+        margin: 50px 0;
+    }
+    .icon-list ul {
+        padding: 0px 15px;
+    }
+    .footer {
+        color: #f8f8f8;
+        margin: 80px 0;
+    }
+    .footer-box-last {
+        margin: 0px;
+    }
+    .map-text h4 {
+        font-size: 23px;
+    }
+    .item h2 {
+        text-align: left;
+        font-size: 23px;
+        width: 260px;
+    }
+    .item p {
+        font-size: 16px;
+        max-width: 500px;
+    }
+    .item h2::before {
+        top: 75%;
+        left: 21%;
+        width: 4%;
+    }
+    .item {
+        margin: 50px 0;
+        display: inline-block;
+    }
+    .flex {
+        padding: 20px 90px;
+    }
+    .image-quote-two{
+        max-width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .image-quote {
+        padding:  0;
+        margin: 0;
+    }
+    
+
+
+
+}

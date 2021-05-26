@@ -127,57 +127,37 @@
         margin: 10px 0;
     }
 }
-@media only screen and (min-width: 480px) {
-    .team-text p {
-        font-size: 17px;
-    }
-    .image-gallery{
-        margin-top: 80px;
-    }
-    .image-gallery p{
-        font-size: 16px;
-    }
-    .gallery-text-box i {
-        font-size: 41px;
-        padding-top: 85px;
-    }
-    .owl-carousel .owl-item img {
-        max-width: 100%;
-    }
-    .gallery-text-box .light {
-        padding-bottom: 95px;
-        width: 186px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 380px) and (max-width: 767px) {
     .header-text h2 {
-        font-size: 45px;
+        font-size: 50px;
     }
     .header-text h1 {
-        font-size: 65px;
+        font-size: 60px;
     }
     .header {
         min-height: 650px;
     }
-    .about-us-text h2::after {
-        top: 29%;
-    }
     .about-us-text p {
-        font-size: 15px;
+        font-size: 16px;
     }
     .about-box {
-        max-width: 84%;
-        text-align: center;
+        max-width: 74%;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .time-box::before {
         visibility: hidden;
     }
     .last::after {
-        visibility: hidden;
+     visibility: hidden;
     }
+    .text-service p {
+        font-size: 16px;
+    }
+    .tabs-right-service{
+        margin: 20px 0;
+    }
+    /* test */
     .device{
         margin-top: 80px;
     }
@@ -190,9 +170,238 @@
     .text-service p {
         font-size: 16px;
     }
-    .tabs-right-service{
-        margin-top: 50px;
+   
+    .team-img {
+        position: relative;
+        max-width: 76%;
+        margin: 0 auto;
     }
+    .logo-section img {
+        max-width: 100%;
+    }
+    .gallery-box {
+        position: relative;
+        margin: 10px 0;
+        max-width: 52%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .client-img-text h4 {
+        width: 60%;
+    }
+    .client-img-text span {
+        width: 36%;
+    }
+    .client-img-text p::before {
+        top: 52%;
+        left: 31%;
+    }
+    .date-box {
+        top: 36%;
+        left: 0%;
+    }
+    .blog-text-story {
+        padding: 12px 35px;
+    }
+    .gallery-text p {
+        font-size: 16px;
+    }
+    .blog-icon {
+        margin: 15px 33px;    
+    }
+    .map{
+        margin-top: 80px;
+    }
+    .footer-box-middle{
+        margin: 50px 0;
+    }
+    .icon-list ul {
+        padding: 0px 15px;
+    }
+    .footer {
+        color: #f8f8f8;
+        margin: 80px 0;
+    }
+    .footer-box-last {
+        margin: 0px;
+    }
+    .map-text h4 {
+        font-size: 23px;
+    }
+    .item h2 {
+        text-align: left;
+        font-size: 23px;
+        width: 260px;
+    }
+    .item p {
+        font-size: 16px;
+        max-width: 500px;
+    }
+    .image-quote h2::before {
+        top: 87%;
+        left: 21%;
+        width: 4%;
+        visibility: hidden;
+    }
+    .item h2::before {
+        content: "";
+        display: block;
+        background: #e29578;
+        position: absolute;
+        top: 77%;
+        left: 11%;
+        width: 4%;
+        height: 3px;
+    }
+    .item {
+        margin: 50px 0;
+        display: inline-block;
+    }
+    .team-text p {
+        font-size: 16px;
+    }
+    .flex {
+        padding: 20px 0;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .image-quote-two{
+        max-width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .image-quote {
+        padding:  0;
+        margin: 0;
+    }
+
+}
+
+
+@media only screen and (max-width:379px) {
+    .header-text h2 {
+        font-size: 30px;
+    }
+    .header-text h1 {
+        font-size: 50px;
+    }
+    .header {
+        min-height: 600px;
+    }
+    .about-us-text h2::after {
+        top: 33%;
+    }
+    .about-us-text p {
+        font-size: 16px;
+        padding: 40px 0;
+    }
+    .time-box::before {
+      visibility: hidden;
+    }
+    .last::after {
+        visibility: hidden;
+    }
+    .service-text h2 {
+        font-size: 28px;
+    }
+    .device-text h2::after {
+        top: 27%;
+        left: 44%;
+        width: 15%;
+    }
+    .dev-phone {
+        left: 51%;
+        width: 50%;
+        top: 61%;
+    }
+    .tabs-right-service{
+        margin: 20px 0;
+    }
+    .item h2::before {
+        top: 77%;
+        left: 1%;
+        width: 15%;
+    }
+    .team-text p {
+        font-size: 16px;
+    }
+    .device{
+        overflow: hidden;
+    }
+    .footer {
+        overflow: hidden;
+    }
+    .image-gallery{
+        margin-top: 80px;
+    }
+    .gallery-text p {
+        font-size: 16px;
+        color: #999999;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        padding: 40px 0;
+    }
+    .image-quote {
+        padding: 50px 0;
+        margin: 0;
+    }
+    .item p {
+        font-size: 16px;
+        width: 275px;
+    }
+    .client-text h2 {
+        font-size: 30px;
+    }
+    .client-img-text h4 {
+        width: 83%;
+        font-size: 25px;
+    }
+    .client-img-text span {
+        width: 64%;
+    }
+    .client-img-text p::before {
+        top: 48%;
+        left: 43%;
+    }
+    .icon-list {
+        display: block;
+        align-items: center;
+    }
+    .icon-list ul {
+        padding: 0px 38px;
+        width: 95%;
+    }
+    .form-footer form input[type="email"] {
+        max-width: 55%;
+    }
+    .footer-img-box-text h4 {
+        width: 100%;
+    }
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .device{
+        margin-top: 80px;
+    }
+    .dev-phone {
+        left: 49%;
+    }
+    .service-section {
+        margin-top: 80px;
+    }
+    .text-service p {
+        font-size: 16px;
+    }
+   
     .team-img {
         position: relative;
         max-width: 87%;
@@ -287,8 +496,6 @@
         padding:  0;
         margin: 0;
     }
-
-
 
 
 }
